@@ -1,0 +1,581 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+
+}
+header{
+	width: 90%;
+	height: 719px;
+	margin: 30px auto;	
+	
+}
+.block1{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top:50px ;
+	align-items: center;
+}
+
+.list{
+	display: flex;
+	flex-direction: row;	
+}
+.list li{
+	padding: 0 15px;
+	list-style-type: none;
+	font-family: 'Muli';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 23px;
+	/* 1f1534-hyfen */
+	
+}
+.list_link{
+	text-decoration: none;
+	color: grey;
+}
+.list_link:hover{
+	color: black;
+	font-size: 22px;
+	font-weight: 700;
+}
+/*******************/
+.block2{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background: url('../img/Group_bg.png') left top no-repeat;
+
+	margin-top: 50px;
+}
+.text_1{
+	width: 427px;
+	height: 112px;	
+	margin: 10px auto;
+}
+.text_item1{
+	font-family: 'Muli';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 56px;
+	/* or 117% */
+	
+	color: #000000;
+
+	mix-blend-mode: normal;
+}
+.text_item2{
+	font-family: 'Muli';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 21px;
+	line-height: 32px;
+	/* or 152% */
+	margin-bottom: 35px;
+
+	color: #7D7987;
+
+	mix-blend-mode: normal;
+}
+.text_item3{
+	width: 200px;
+	align-items: center;
+
+	background: #458FF6;
+	border-radius: 55px;
+	font-family: 'Muli';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 60px;
+	/* identical to box height, or 333% */
+	text-decoration: none;
+	color: #FFFFFF;
+	padding: 10px 20px;
+	mix-blend-mode: normal;
+}
+.pic1{
+	width: 593px;
+	height: 500px;
+}
+/************ Our services ***********/
+.block3{
+	width: 952px;
+	height: 177px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.block3 p{
+	width: 212px;
+	height: 56px;
+	font-family: 'Muli';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 56px;
+	color: #000000;
+	text-align: center;
+	mix-blend-mode: normal;
+}
+.block3 span{
+	font-family: 'Muli';
+	width: 952px;
+	height: 60px;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 30px;
+	/* or 167% */
+	text-align: center;
+	color: #7D7987;
+	mix-blend-mode: normal;
+	padding-top: 20px;
+}
+.bg_Our_ser{
+	background: url('../img/Vector.png') left no-repeat	;
+}
+.Our_services{
+	width: 1120px;
+	height: 745px;
+	margin: 80px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	
+
+}
+.servis_items{
+	width: 350px;
+	height: 354px;
+	background: #FFFFFF;
+
+	box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+	border-radius: 20px;
+}
+.servis_items img{
+	padding: 35px 0 50px 25px;
+}
+.servis_items span{
+	width: 196px;
+	height: 56px;
+	font-family: 'Muli';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 56px;
+	margin: 20px auto;
+	color: #000000;
+	mix-blend-mode: normal;
+}
+.servis_items p{
+	width: 266px;
+	height: 84px;
+	margin: 0 auto;
+	font-family: 'Muli';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 28px;
+	/* or 175% */
+	color: #7D7987;
+
+	mix-blend-mode: normal;
+}
+.link_about{
+	margin-top: 72px;
+	width: 200px;
+	height: 56px;
+	border: 1.4px solid #458FF6;
+	border-radius: 55px;
+	font-family: 'Muli';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 60px;
+	/* identical to box height, or 333% */
+	color: #458FF6;
+
+	mix-blend-mode: normal;
+}
+.link_about a{
+	text-decoration: none;
+	color: #458FF6;
+	text-align: center;
+}
+/************ leading healthcare ***********/
+.block4{
+	margin: 220px auto;
+	width: 1273px;
+	height: 477px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.block_text{
+	width: 486px;
+	height: 388px;
+}
+.leading_items span{
+	font-family: 'Muli';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 56px;
+	/* or 156% */
+
+	color: #000000;
+
+	mix-blend-mode: normal;
+}
+.leading_items p{
+	margin-top: 30px ;
+	font-family: 'Muli';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 30px;
+	color: #7D7987;
+
+	mix-blend-mode: normal;
+}
+.link_leading p{
+	margin-top: 72px;
+	width: 200px;
+	height: 56px;
+	border: 1.4px solid #458FF6;
+	border-radius: 55px;
+	font-family: 'Muli';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 60px;
+	/* identical to box height, or 333% */
+	color: #458FF6;
+
+	mix-blend-mode: normal;
+}
+.link_leading a{
+	text-decoration: none;
+	color: #458FF6;
+	text-align: center;
+}
+/************ leading healthcare 2 ***********/
+.block5{
+	margin: 220px auto;
+	width: 1273px;
+	height: 477px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.block_text{
+	width: 486px;
+	height: 388px;
+}
+.leading_items2 span{
+	font-family: 'Muli';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 56px;
+	/* or 156% */
+
+	color: #000000;
+
+	mix-blend-mode: normal;
+}
+.leading_items2 p{
+	margin-top: 30px ;
+	font-family: 'Muli';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 30px;
+	color: #7D7987;
+
+	mix-blend-mode: normal;
+}
+.link_leading p{
+	margin-top: 72px;
+	width: 200px;
+	height: 56px;
+	border: 1.4px solid #458FF6;
+	border-radius: 55px;
+	font-family: 'Muli';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 60px;
+	/* identical to box height, or 333% */
+	color: #458FF6;
+
+	mix-blend-mode: normal;
+}
+.block6{
+	margin: 0 auto ;
+	width: 1219.58px;
+	height: 502px;
+	
+}
+.bg{
+	width: 1120px;
+	height: 425px;
+	background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+	border-radius: 24px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	
+	padding: 0 20px;	
+}
+
+.first_text{
+	padding-top: 60px;
+	text-align: center;
+}
+.testimon_items span{
+	font-family: 'Muli';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 48px;
+	color: #FFFFFF;
+
+	mix-blend-mode: normal;
+}
+.link{
+	color: #fff;
+}
+.second_text{
+	width: 1000px;
+	height: 280px;	
+	text-align: center;
+	display: flex;
+	justify-content: space-around;	
+}
+.second_text span{
+	font-family: 'Muli';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 48px;
+	color: #FFFFFF;
+
+	mix-blend-mode: normal;
+}
+.second_text p{
+	font-family: 'Muli';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 48px;
+	/* identical to box height, or 267% */
+	color: rgba(255, 255, 255, 0.85);
+
+	mix-blend-mode: normal;
+}
+.testimon_items2{
+	margin: 15px auto;
+}
+.third_text{
+	width: 420px;
+	height: 220px;	
+	text-align: center;
+}
+.third_text {
+	font-family: 'Muli';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 30px;
+	/* or 158% */
+	color: rgba(255, 255, 255, 0.9);
+	margin: 0;
+	mix-blend-mode: normal;
+}
+/* *********** Article ********** */
+.article{
+	margin-top: 200px;
+	background: url('../img/Vector2.png')right no-repeat;
+}
+.artice_item p{
+	font-family: 'Muli';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 56px;
+	color: #000000;
+	text-align: center;
+	mix-blend-mode: normal;
+}
+.artice_item2{
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: space-around;
+}
+.item_blocks{
+	width: 350px;
+	height: 512px;
+	padding: 30px 20px;
+	box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+	background: #FFFFFF;
+}
+.item_blocks img{
+	border-radius: 20px 20px 0 0;
+}
+.text_block_span{
+	width: 250px;
+	height: 64px;
+	margin: 21px 33px 12px 12px;
+}
+.item_blocks span{
+	font-family: 'Muli';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 21px;
+	line-height: 32px;
+	/* or 152% */
+	color: #000000;
+
+	mix-blend-mode: normal;
+}
+.text_block_p{
+	width: 266px;
+	height: 84px;
+	margin: 0 33px 25px 12px;
+}
+.text_block_p p{
+	font-family: 'Muli';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 28px;
+	/* or 175% */
+	color: #7D7987;
+
+	mix-blend-mode: normal;
+}
+.block_link_a{
+	width: 266px;
+	height: 28px;
+	margin: 0 51px 35px 12px;
+}
+.block_link_a a{
+	font-family: 'Muli';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 17px;
+	line-height: 28px;
+	text-decoration: none;
+	color: #4089ED;
+
+	mix-blend-mode: normal;
+}
+.artice_item_link{
+	text-align: center;
+	margin: 70px auto 200px ;
+	border: 1px solid #4089ED;	
+	width: 200px;
+	height: 60px;
+	border-radius: 30px;
+}
+.artice_item_link span{
+	font-family: 'Muli';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 60px;
+	margin: 0 10px ;
+	color: #458FF6;
+
+	mix-blend-mode: normal;
+}
+/************ Footer **********/
+footer{
+	background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%) ;
+	width: 100%;
+	height: 432px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer_items1{
+	width: 40%;	
+	height: 432px;
+	background:url('../img/dot_bg.png') left bottom  no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo_footer{
+	margin: 0 auto;
+    margin-bottom: 22px;  
+}
+
+.text_footer{
+	width: 391px;
+	height: 84px;
+	margin-bottom: 31px;
+}
+.block_text_footer{
+	width: 391px;
+	margin: 0 auto;
+}
+.block_text_footer p{
+	font-family: 'Muli';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 28px;
+
+	color: #FFFFFF;
+	mix-blend-mode: normal;
+}
+.footer_items {
+	width: 200px;
+}
+.block_about{
+	width: 55%;
+	display: flex;
+	flex-direction: row;
+	align-items: space-around;
+}
+.block_items{
+	width: 200px;
+	margin: 0 20px 0 20px;
+}
+.block_items span{
+	font-family: 'Muli';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 60px;
+
+	color: #FFFFFF;
+
+	mix-blend-mode: normal;
+}
+.block_items ul{
+	list-style-type: none;
+	font-family: 'Muli';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 38px;
+
+	color: #FFFFFF;
+
+	mix-blend-mode: normal;
+}
